@@ -12,10 +12,10 @@ const SliderSelect = () => {
         amount={3500}
         unit="$"
         step={100}
-        onChange={(e)=> console.log(e.target.value)}
+        onChange={(e) => console.log(e.target.value)}
       />
 
-<SliderComponent
+      <SliderComponent
         defaultValue={600}
         min={0}
         max={3000}
@@ -23,10 +23,10 @@ const SliderSelect = () => {
         amount={6000}
         unit="$"
         step={100}
-        onChange={(e)=> console.log(e.target.value)}
+        onChange={(e) => console.log(e.target.value)}
       />
 
-<SliderComponent
+      <SliderComponent
         defaultValue={2400}
         min={0}
         max={3000}
@@ -34,10 +34,10 @@ const SliderSelect = () => {
         amount={2400}
         unit="$"
         step={100}
-        onChange={(e)=> console.log(e.target.value)}
+        onChange={(e) => console.log(e.target.value)}
       />
 
-<SliderComponent
+      <SliderComponent
         defaultValue={5}
         min={2}
         max={18}
@@ -45,7 +45,7 @@ const SliderSelect = () => {
         amount={5}
         unit="%"
         step={0.5}
-        onChange={(e)=> console.log(e.target.value)}
+        onChange={(e) => console.log(e.target.value)}
       />
     </div>
   );
