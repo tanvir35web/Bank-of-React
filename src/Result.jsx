@@ -24,7 +24,7 @@ const Result = ({ data }) => {
       {
         label: "Ration of Principle and Interest",
         data: [homeValue, totalInterestGenerated],
-        backgroundColor: ["rgba(255, 99, 132, 0.2)", "rgba(54, 162, 235, 0.2)"],
+        backgroundColor: ["rgba(255, 69, 132, 0.5)", "rgba(54, 162, 235, 0.6)"],
         borderColor: ["rgba(255, 99, 132, 1)", "rgba(54, 162, 235, 1)"],
         borderWidth: 1,
       },
